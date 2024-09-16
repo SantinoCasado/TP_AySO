@@ -1,0 +1,113 @@
+exit
+cd repogit/
+cd TP_AySO/
+cat /etc/os-release
+grep HOME_URL /etc/os-release 
+grep home_url /etc/os-release
+grep -I Home_url /etc/os-release
+grep -i Home_url /etc/os-release
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt
+git add . 
+git config --global user.email "santinocasado@gmail.com"
+git config --global user.name "SantinoCasado"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status 
+cpuinfo
+/proc
+cat /proc
+cpuinfo >> ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt
+cpuinfo
+apt install cpuinfo
+apt install <deb cpuinfo>
+apt install cpuinfo
+grep 'model name' /proc/cpuinfo | head -n 1
+echo "Modelo de CPU: $(grep 'model name' /proc/cpuinfo | head -n 1)" >> datos_usuarios.txt
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+vagrant halt
+cd repogit/TP_AySO/
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release 
+grep -i Home_url /etc/os-release
+whoami 
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+git add .
+git config --global user.email "santinocasado05@gmail.com"
+git config --global user.name "SantinoCasado"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+cat /proc/cpuinfo | grep "model name"
+grep "model name" /proc/cpuinfo | head -n 1 >> datos_usuarios.txt
+git add datos_usuarios.txt
+git commit -m "feat: Añadiendo información de CPU"
+grep -v ':nologin' /etc/passwd
+grep -v ':nologin' /etc/passwd | cut -d ':' -f 1,7
+grep -v ':nologin' /etc/passwd | cut -d ':' -f 1,7 | sort -t ':' -k 2
+grep -v ':nologin' /etc/passwd | cut -d ':' -f 1,7 | sort -t ':' -k 2 | head -n 10
+grep -v ':nologin' /etc/passwd | cut -d ':' -f 1,7 | sort -t ':' -k 2 | head -n 10 > lista_ordenada
+git add lista_ordenada
+git commit -m "ADD: Listado de usuarios ordenada"
+man -k "dump traffic"
+echo "- dump traffic on a network" > comando_dump_net
+echo "man -k "dump traffic"" >> comando_dump_net 
+git add comando_dump_net
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red”
+
+
+bash
+cat <<EOF >> README.md
+Alumno: Santino Casado
+División: 318
+Turno: Noche
+EOF
+git add README.md
+git commit -m "docs(readme): agregar información del alumno"
+git commit -m "docs: agregar información del alumno"
+git log
+cd repogit/
+git clone git@github.com:SantinoCasado/TP_AySO.git
+cd TP_AySO/
+ls -l
+git pull origin main
+git status
+git push origin main
+git pull origin main
+git remote -v
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+ls -l
+rm -r datos_usuario.txt
+touch datos_usuario.txt
+echo “Usuario=$(whoami)” > datos_usuario.txt 
+git add .
+git config --global user.email "santinocasado@gmail.com"
+git config --global user.name "SantinoCasado"
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+git push
+cat <<EOF >> README.md
+cat << EOF > README.md
+Alumno: Santino Casado
+División: 318
+Turno: noche
+EOF
+
+git add .
+git status
+cd repogit/TP_AySO/
+cat << EOF > README.md
+Alumno: Casado Santino
+División: 318
+Turno: noche
+EOF
+
+git add .
+git commit -m "docs: añadir informacion de alumno, turno y división al README"
+cat README.md
+history -a
